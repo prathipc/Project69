@@ -1,6 +1,8 @@
 import pandas as pd
 import requests
 import json
+#Its the same things.. Should I move it into an object class? May be... 
+
 cf = requests.get('https://financialmodelingprep.com/api/v3/financials/cash-flow-statement/AAPL?period=quarter')
 cf = cf.json()
 
