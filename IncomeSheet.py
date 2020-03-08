@@ -26,6 +26,7 @@ print()
 print()
 
 
+
 # Now let us have only 4 quarters.. before that is all noise.. so let us delete them as well..... 
 income_sheet = income_sheet.iloc[0: ,:4 ]
 
