@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 import json
 bs = requests.get('https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL?period=quarter')
-bs = bs.json()
+bs = bs.json() 
 
 balance_sheet = pd.DataFrame.from_dict(bs['financials'])
 print ("Step 0.............")
