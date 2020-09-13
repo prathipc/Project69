@@ -19,3 +19,8 @@ Return on Equity = Net Profit (from continuing operations) ÷ Shareholders' Equi
  ' Find the Shareholders equity... from some place.. not sure where.. 
  ' Use the formula... 
  ' Spit out the Value... 
+
+Adding GIT comments for reference
+1. Clone of GIT: git clone <ssh command from the git repository>
+2. git open .  <This will open the folder in which the git was cloned>
+3. 
